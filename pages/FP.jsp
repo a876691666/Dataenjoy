@@ -77,7 +77,8 @@
 			style="text-align: center; padding-top: 30px;background:url(../res/images/FP/bbb.png) no-repeat;background-position-y: 50px;height:400px;">
 			<div class="headerBanner">
 				<p class="title">DataEnjoy 零售业态扶持计划</p>
-				<p class="text">作为零售业IT</p>
+				<p class="text">作为零售行业IT解决方案专家，打造健康、共享、互利的生态，为改善、发展零
+					售业环境做贡献，一直是Dataenjoy的行业愿景和企业责任。</p>
 			</div>
 		</div>
 	</section>
@@ -105,13 +106,15 @@
 				</div>
 				<div class="item">
 					<img src="../res/images/FP/IT.png" alt="IT">
-					<p class="title">价值30万的IT资源</p>
-					<p class="text">(包括但不限于基础云服务资源、舆情监控工具、数据分析工具、DataEnjoy零售业管理工具等)</p>
+					<p class="title">价值10万的北四环办公场地</p>
+					<p class="text"></p>
 				</div>
 				<div class="item">
 					<img src="../res/images/FP/IT.png" alt="IT">
-					<p class="title">价值30万的IT资源</p>
-					<p class="text">(包括但不限于基础云服务资源、舆情监控工具、数据分析工具、DataEnjoy零售业管理工具等)</p>
+					<p class="title">价值8万的全年沙龙活动场地
+						及全年市场资源支持
+					</p>
+					<p class="text"></p>
 				</div>
 			</div>
 
@@ -132,8 +135,8 @@
 					&nbsp;&nbsp;&nbsp;&nbsp;市场支持
 				</span>
 			</div>
-			<div class="textBox"> 1. 在 DataEnjoy 无任何消费
-2. 零售、金融、fintech、供应链行业方向的团队和项目
+			<div class="textBox"> DataEnjoy 举行的市场活动，零售行业团队可拥有优先推介和品牌露出机会。优秀团队可共享DataEnjoy所有媒
+				体合作伙伴资源。
 			</div>
 
 			<div>
@@ -143,8 +146,8 @@
 					&nbsp;&nbsp;&nbsp;&nbsp;孵化平台对接
 				</span>
 			</div>
-			<div class="textBox"> 1. 在 DataEnjoy 无任何消费
-2. 零售、金融、fintech、供应链行业方向的团队和项目
+			<div class="textBox"> DataEnjoy 联合众多优秀服务合作伙伴为初创团队提供创业所需的资本对接、人力资源、市场推广、团队建
+				设、创业指导等服务。
 			</div>
 
 			<div>
@@ -156,6 +159,23 @@
 			</div>
 			<div class="textBox" style="margin-bottom:200px;"> 1. 在 DataEnjoy 无任何消费
 2. 零售、金融、fintech、供应链行业方向的团队和项目
+3.A 轮融资前初创团队优先
+4.产品已发布或已上线的团队优先
+
+
+申请流程：
+一.申请流程：填写【申请扶持】邮件至service@rx.top → 人工审核通过 → 注册专属账户 → 通过企业认证 → 获得
+资源对接。
+邮件内容请阐述：
+1. 公司名称、团队规模、联系人、联系方式
+2. 项目简介、项目融资状态
+3. 希望申请的西苑简要
+4. 营业执照附件（审核用）；
+
+二.资源扶持期限为12个月，所有资源不可提现、不可转售、不可转至其他账号使用，如果到期未使用将被视作自动放弃使用权。
+
+三.单个企业不可重复申请扶持。
+
 			</div>
 
 
@@ -180,7 +200,9 @@
 				}
 				.zyzc > .item{
 					width:33%;
-					display: inline-block
+					display: inline-block;
+					line-height: 40px;
+					vertical-align: top;
 				}
 				.zyzc > .item img{
 					margin: 50px 0 20px;

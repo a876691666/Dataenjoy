@@ -85,8 +85,10 @@
 				<div class="swiper-slide">
 					<div class="hero_wrapper" style="height:100%;background: url(/res/images/home/FP-Banner.png) top center no-repeat; background-size: cover;">
 						<div class="FP banner-tab-item">
-							<p class="title">扶贫</p>
-							<p class="text">扶贫</p>
+							<p class="title">DataEnjoy 零售业态扶持计划</p>
+							<p class="text">作为零售行业IT解决方案专家，打造健康、共享、互利的生态，为改善、发展零
+								售业环境做贡献，一直是Dataenjoy的行业愿景和企业责任。
+							</p>
 							<a href="<%=request.getContextPath()%>/pages/FP.jsp" class="btn-button">了解详情</a>
 	
 						</div>
