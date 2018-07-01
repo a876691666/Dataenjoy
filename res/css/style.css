@@ -1760,3 +1760,47 @@ div.mc-image {
 	display: block;
 	visibility: visibility;
 }
+
+
+.swiper-pagination-bullet{
+	width: 20px;
+	height: 20px;
+}
+.swiper-wrapper{
+	
+}
+.btn-button{
+	display: inline-block;
+		line-height: 28px;
+		text-decoration: none;
+		color: #fff;
+		text-align: center;
+		border: 1px solid #fff;
+		padding:0 5px;
+		
+}
+.btn-button:hover{
+	background: #4cccda;
+	text-decoration: none;
+	border: 0;
+}
+.banner-tab-item{
+	width:45%;
+	height:200px;
+	position: absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	margin: auto;
+	color:#fff;
+}
+.banner-tab-item .title{
+	font-size:30px;
+	margin-bottom:20px;
+}
+.banner-tab-item .text{
+	margin-bottom:30px;
+}
+.hero_wrapper{
+	position: relative;
+}

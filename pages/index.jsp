@@ -30,7 +30,10 @@
 	rel="stylesheet">
 <link href="<%=request.getContextPath()%>/res/css/gallery-1.css"
 	rel="stylesheet">
+<link href="<%=request.getContextPath()%>/res/css/swiper.min.css"
+	rel="stylesheet">
 
+<script src="<%=request.getContextPath()%>/res/js/swiper.min.js"></script>
 <!--[if lt IE 9]>
     <script src="<%=request.getContextPath()%>/res/js/respond-1.1.0.min.js"></script>
     <script src="<%=request.getContextPath()%>/res/js/html5shiv.js"></script>
@@ -79,10 +82,50 @@
 	<!--Header_section-->
 
 	<!--Hero_Section-->
-	<section id="hero_section" class="top_cont_outer"style="    height: 90%;">
-		<div class="hero_wrapper" style="height:100%;background: url(/res/images/dynamic/banner.png) bottom center no-repeat; background-size: cover;">
+	<section id="hero_section " class="top_cont_outer swiper-container" style="overflow:hidden;height: 90%;">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="hero_wrapper" style="height:100%;background: url(/res/images/home/FP-Banner.png) top center no-repeat; background-size: cover;">
+					<div class="FP banner-tab-item">
+						<p class="title">扶贫</p>
+						<p class="text">扶贫</p>
+						<a href="<%=request.getContextPath()%>/pages/FP.jsp" class="btn-button">了解详情</a>
+
+					</div>
+				</div>
+			</div>
 		</div>
+		
+		<!-- 如果需要分页器 -->
+		<div class="swiper-pagination"></div>
+		
+		<!-- 如果需要导航按钮 -->
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
+		
+		<!-- 如果需要滚动条 -->
+		<div class="swiper-scrollbar"></div>
 	</section>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+				renderBullet: function (index, className) {
+					return '<span class="' + className + '">' + (index + 1) + '</span>';
+				},
+			},
+			// 如果需要前进后退按钮
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+ 			autoplay:true,
+    		loop : true,
+			
+		});
+
+	</script>
 	<!--Hero_Section-->
 
 	<section id="aboutUs">
@@ -370,7 +413,6 @@
 				京ICP备18016669号-3 北京瑞雪精英科技有限公司</div>
 		</div>
 	</footer>
-
 	<script type="text/javascript"
 		src="<%=request.getContextPath()%>/res/js/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript"
