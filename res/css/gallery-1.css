@@ -1,0 +1,251 @@
+/*	Gallery 1
+/*----------------------------------------------------*/
+
+/* Gallery Item
+ * -------------------------- */
+ 
+#isotope-gallery-container .col-md-3 {
+    margin-right: -1px;
+}
+
+.gallery-item-wrapper {
+    padding-bottom: 25px;
+}
+.gallery-item {
+    overflow: hidden;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    border: 1px solid #a9804c;
+}
+.flush .gallery-item {
+    border-radius: 0;
+}
+
+.gallery-item .gallery-thumb {
+    position: relative;
+    overflow: hidden;
+    border: 0;
+}
+
+/**
+.gallery-item .gallery-thumb img {
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.gallery-item:hover .gallery-thumb img {
+    transform: scale(1.1);
+}
+**/
+
+.gallery-item .gallery-thumb .gallery-text{
+	display:inline-block;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);/* IE9、标准浏览器、IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂 */
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+	text-align: left;
+	width: 100%;
+	padding-left: 10px;
+}
+
+.gallery-item:hover .gallery-thumb .gallery-text{
+	background-color: transparent;
+}
+
+.gallery-item .gallery-thumb .gallery-text p{
+	color: #e98f36;
+	line-height: 38px;
+}
+
+.gallery-item .gallery-thumb .image-overlay {
+    background-color: #2c3e50;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    text-align: center;
+    font-size: 25px;
+    vertical-align: middle;
+    display:flex;/*Flex布局*/
+    display: -webkit-flex; /* Safari */
+    align-items:center;/*指定垂直居中*/
+    
+}
+
+.gallery-item .gallery-thumb .image-overlay p{
+	line-height: 35px;
+	text-align: center;
+	width: 100%;
+}
+
+.gallery-item:hover .gallery-thumb .image-overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    background-color: rgba(0,0,0,0.5);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+}
+
+.gallery-item:hover .gallery-thumb .image-overlay p{
+	color: #e98f36;
+}
+
+
+/*
+.gallery-item .gallery-thumb .gallery-zoom, .gallery-item .gallery-thumb .gallery-link {
+    text-align: center;
+    display: none;
+    line-height: 45px;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    padding-top: 2px;
+    font-size: 25px;
+    color: #e1ab43;
+    display: block;
+    border-radius: 2px;
+}
+*/
+.gallery-item .gallery-thumb .gallery-link {
+    right: 0;
+    margin-right: -45px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.gallery-item .gallery-thumb .gallery-zoom {
+    left: 0;
+    margin-left: -45px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.gallery-item .gallery-details {
+    text-align: center;
+    padding-top: 20px;
+    background-color: #fff;
+    border: 2px solid #ecf0f1;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.gallery-item .gallery-details h5 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: 700;
+    position: relative;
+}
+
+.gallery-item .gallery-details p {
+    font-size: .9em;
+}
+
+
+/* Gallery Filter
+ * -------------------------- */
+.filter {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 60px 0;
+    text-align: center;
+}
+.filter li {
+    display: inline-block;
+    margin: 0;
+}
+.filter li:before {
+    display: inline-block;
+    content: "/";
+    padding: 0 25px 0 19px;
+    color: rgba(0,0,0,0.20);
+}
+.filter li:first-child:before {
+    display: none;
+}
+.filter li a {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    color: #777777;
+}
+.filter li a:hover,
+.filter li a:focus,
+.filter li a.active {
+    color: #002e5b;
+    text-decoration: none;
+}
+
+/* Isotope Animating
+ * -------------------------- */
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+
+
+
+
+/*	Gallery 1 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+		
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}
+
