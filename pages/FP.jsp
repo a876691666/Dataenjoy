@@ -43,7 +43,7 @@
 			<nav class="navbar navbar-inverse" role="navigation">
 				<div id="main-nav" class="collapse navbar-collapse navStyle">
 					<ul class="nav navbar-nav" id="mainNav">
-					    <li><a href="<%=request.getContextPath()%>/pages/index.jsp" class="scroll-link">首页</a></li>
+						<li><a href="<%=request.getContextPath()%>/pages/index.jsp" class="scroll-link">首页</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 								产品
@@ -56,13 +56,13 @@
 						</li>
 						<li><a href="<%=request.getContextPath()%>/pages/solution.jsp"
 							class="scroll-link">解决方案</a></li>
-						<li class="active"><a href="#" class="scroll-link">关于我们</a></li>
-						<li><a
-							href="<%=request.getContextPath()%>/newsController/list.do"
+						<li><a href="<%=request.getContextPath()%>/pages/aboutUs.jsp"
+							class="scroll-link">关于我们</a></li>
+						<li><a href="<%=request.getContextPath()%>/newsController/list.do"
 							class="scroll-link">公司动态</a></li>
 					</ul>
 					<div class="btn-box">
-						<a href="<%=request.getContextPath()%>/pages-en/aboutUs.jsp" class="login-btn" style="border:none;">English</a>
+						<a href="<%=request.getContextPath()%>/pages-en/FP.jsp" class="login-btn" style="border:none;">English</a>
 						<jsp:include page="inc/loginBox.jsp" flush="true" />
 					</div>
 				</div>
@@ -73,13 +73,17 @@
 
 	<!--Hero_Section-->
 	<section id="hero_section" class="top_cont_outer">
-		<div class="container container_inner"
+		<div class="container"
 			style="text-align: center; padding-top: 30px;background:url(../res/images/FP/bbb.png) no-repeat;background-position-y: 50px;height:400px;">
+			<div class="headerBanner">
+				<p class="title">DataEnjoy 零售业态扶持计划</p>
+				<p class="text">作为零售业IT</p>
+			</div>
 		</div>
 	</section>
 
 	<section>
-		<div class="container container_inner">
+		<div class="container">
 
 			<div style="padding:50px;">
 				<h2>我们可为零售行业团队提供</h2>
@@ -88,18 +92,32 @@
 
 			<div>
 				<hr/>
-				<span style="font-size: 30px; color: #000; ">
-					<img src="../res/images/FP/jishu.png">
+				<span class="tabTitle">
+					<img src="../res/images/FP/ziyuan.png">
 					&nbsp;&nbsp;&nbsp;&nbsp;资源支持
 				</span>
 			</div>
-			<div class="textBox"> 1. 在 DataEnjoy 无任何消费
-2. 零售、金融、fintech、供应链行业方向的团队和项目
+			<div class="zyzc">
+				<div class="item">
+					<img src="../res/images/FP/IT.png" alt="IT">
+					<p class="title">价值30万的IT资源</p>
+					<p class="text">(包括但不限于基础云服务资源、舆情监控工具、数据分析工具、DataEnjoy零售业管理工具等)</p>
+				</div>
+				<div class="item">
+					<img src="../res/images/FP/IT.png" alt="IT">
+					<p class="title">价值30万的IT资源</p>
+					<p class="text">(包括但不限于基础云服务资源、舆情监控工具、数据分析工具、DataEnjoy零售业管理工具等)</p>
+				</div>
+				<div class="item">
+					<img src="../res/images/FP/IT.png" alt="IT">
+					<p class="title">价值30万的IT资源</p>
+					<p class="text">(包括但不限于基础云服务资源、舆情监控工具、数据分析工具、DataEnjoy零售业管理工具等)</p>
+				</div>
 			</div>
 
 			<div>
 				<hr/>
-				<span style="font-size: 30px; color: #000; ">
+				<span class="tabTitle">
 					<img src="../res/images/FP/jishu.png">
 					&nbsp;&nbsp;&nbsp;&nbsp;技术支持
 				</span>
@@ -109,7 +127,7 @@
 
 			<div>
 				<hr/>
-				<span style="font-size: 30px; color: #000; ">
+				<span class="tabTitle">
 					<img src="../res/images/FP/shichang.png">
 					&nbsp;&nbsp;&nbsp;&nbsp;市场支持
 				</span>
@@ -120,7 +138,7 @@
 
 			<div>
 				<hr/>
-				<span style="font-size: 30px; color: #000; ">
+				<span class="tabTitle">
 					<img src="../res/images/FP/fuhua.png">
 					&nbsp;&nbsp;&nbsp;&nbsp;孵化平台对接
 				</span>
@@ -131,7 +149,7 @@
 
 			<div>
 				<hr/>
-				<span style="font-size: 30px; color: #000; ">
+				<span class="tabTitle">
 					<img src="../res/images/FP/jishu.png">
 					&nbsp;&nbsp;&nbsp;&nbsp;申请条件:
 				</span>
@@ -146,78 +164,60 @@
 
 			<style>
 				.textBox{
-					font-size: 22px;
+					font-size: 20px;
 				    padding-left: 135px;
 				    color:#000;
 			        white-space: pre-line;
 			        padding-bottom:40px;
+				}
+				.tabTitle{
+					font-size: 30px; color: #000;
+				}
+				.zyzc {
+					text-align: center;
+					color:#000;
+					margin-bottom:30px;
+				}
+				.zyzc > .item{
+					width:33%;
+					display: inline-block
+				}
+				.zyzc > .item img{
+					margin: 50px 0 20px;
+				}
+				.zyzc > .item .title{
+					font-size: 26px;
+					margin-bottom:18px;
+				}
+				.zyzc > .item .text{
+					font-size: 13px;
+				}
+
+				.headerBanner{
+					width:100%;
+					height:100%;
+					padding-left:50%;
+					padding-top:100px;
+					padding-bottom:30px;
+					color:#fff;
+					text-align: left;
+				}
+				.headerBanner .title{
+					font-size:34px;
+					margin-bottom:30px;
+				}
+				.headerBanner .text{
+					font-size: 18px;
+				}
+				.title{
+					font-weight: 600;
 				}
 			</style>
 		</div>	
 	</section>
 
 	<!--Footer-->
-	<footer class="footer_wrapper" id="contact">
-		<div class="container footer_container">
-			<section class="page_section contact" id="contact">
-				<div class="contact_section">
-					<div class="row">
-						<div class="col-lg-4">
-							<span class="title">产品</span>
-							<ul>
-								<li><a href="<%=request.getContextPath()%>/pages/mc.jsp">Dataenjoy
-										MC</a></li>
-								<li><a href="<%=request.getContextPath()%>/pages/ac.jsp">Dataenjoy
-										AC</a></li>
-								<li><a href="<%=request.getContextPath()%>/pages/bc.jsp">Dataenjoy
-										BC</a></li>
-							</ul>
-							<br /> <span class="title">产品咨询</span>
-							<ul>
-								<li>
-								  <img src="<%=request.getContextPath()%>/res/images/home/icon-mail.png"/>
-								  <span>Service@dataenjoy.cn</span>
-								</li>
-								<li>
-								   <img src="<%=request.getContextPath()%>/res/images/home/icon-phone.png"/>
-								   <span>010-57044722</span>
-								 </li>
-							</ul>
-						</div>
-						<div class="col-lg-4">
-							<span class="title">关于我们</span>
-							<ul>
-								<li><a href="<%=request.getContextPath()%>/pages/aboutUs.jsp">加入我们</a></li>
-								<li><a href="<%=request.getContextPath()%>/newsController/list.do">公司动态</a></li>
-								<li><a href="<%=request.getContextPath()%>/pages/aboutUs.jsp">我们的团队</a></li>
-							</ul>
-							<br /> <span class="title">商务合作</span>
-							<ul>
-								<li>
-								 <img src="<%=request.getContextPath()%>/res/images/home/icon-mail.png">
-								 <span>marketing@dataenjoy.cn</span>
-								 </li>
-								<li>
-								<img src="<%=request.getContextPath()%>/res/images/home/icon-phone.png">
-								<span>010-57044722</span>
-								</li>
-							</ul>
-						</div>
-						<div class="col-lg-4">
-							<br /> <img
-								src="<%=request.getContextPath()%>/res/images/home/logo1.png"
-								width="150" style="margin-top: 85px;"/>
-						</div>
-					</div>
-				</div>
-
-			</section>
-		</div>
-		<div class="container">
-			<div class="footer_bottom">Copyright &copy; dataenjoy.cn
-				京ICP备18016669号-3 北京瑞雪精英科技有限公司</div>
-		</div>
-	</footer>
+	<%@ include file="./footer.jsp" %>
 
 	<script type="text/javascript" src="../res/js/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="../res/js/bootstrap.min.js"></script>
