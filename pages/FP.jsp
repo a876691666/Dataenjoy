@@ -201,7 +201,6 @@
 				.zyzc > .item{
 					width:33%;
 					display: inline-block;
-					line-height: 40px;
 					vertical-align: top;
 				}
 				.zyzc > .item img{
@@ -210,6 +209,7 @@
 				.zyzc > .item .title{
 					font-size: 26px;
 					margin-bottom:18px;
+					line-height: 40px;
 				}
 				.zyzc > .item .text{
 					font-size: 13px;
