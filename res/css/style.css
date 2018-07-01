@@ -1800,7 +1800,7 @@ div.mc-image {
 }
 .banner-tab-item .text{
 	margin-bottom:30px;
-	line-height: 40px;
+	white-space: pre-line;
 }
 .hero_wrapper{
 	position: relative;
