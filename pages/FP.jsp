@@ -105,12 +105,12 @@
 					<p class="text">(包括但不限于基础云服务资源、舆情监控工具、数据分析工具、DataEnjoy零售业管理工具等)</p>
 				</div>
 				<div class="item">
-					<img src="../res/images/FP/IT.png" alt="IT">
+					<img src="../res/images/FP/bangong.png" alt="IT">
 					<p class="title">价值10万的北四环办公场地</p>
 					<p class="text"></p>
 				</div>
 				<div class="item">
-					<img src="../res/images/FP/IT.png" alt="IT">
+					<img src="../res/images/FP/shalong.png" alt="IT">
 					<p class="title">价值8万的全年沙龙活动场地
 						及全年市场资源支持
 					</p>
