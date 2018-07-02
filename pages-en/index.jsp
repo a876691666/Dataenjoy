@@ -34,7 +34,7 @@
 	rel="stylesheet">
 
 <script src="<%=request.getContextPath()%>/res/js/swiper.min.js"></script>
-
+	
 <!--[if lt IE 9]>
     <script src="<%=request.getContextPath()%>/res/js/respond-1.1.0.min.js"></script>
     <script src="<%=request.getContextPath()%>/res/js/html5shiv.js"></script>
@@ -63,6 +63,7 @@
 								<li><a href="<%=request.getContextPath()%>/pages-en/mc.jsp">Dataenjoy MC</a></li>
 								<li><a href="<%=request.getContextPath()%>/pages-en/ac.jsp">Dataenjoy AC</a></li>
 								<li><a href="<%=request.getContextPath()%>/pages-en/bc.jsp">Dataenjoy BC</a></li>
+								<li><a href="<%=request.getContextPath()%>/pages-en/sc.jsp">Dataenjoy SC</a></li>
 							</ul>
 						</li>
 						<li><a href="<%=request.getContextPath()%>/pages-en/solution.jsp" class="scroll-link">Solution</a></li>
@@ -81,52 +82,52 @@
 
 	<!--Hero_Section-->
 	<section id="hero_section " class="top_cont_outer swiper-container" style="overflow:hidden;height: 90%;">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide">
-					<div class="hero_wrapper" style="height:100%;background: url(/res/images/home/FP-Banner.png) top center no-repeat; background-size: cover;">
-						<div class="FP banner-tab-item">
-							<p class="title">DataEnjoy 零售业态扶持计划</p>
-							<p class="text">作为零售行业IT解决方案专家，打造健康、共享、互利的生态，为改善、发展零
-								售业环境做贡献，一直是Dataenjoy的行业愿景和企业责任。
-							</p>
-							<a href="<%=request.getContextPath()%>/pages/FP.jsp" class="btn-button">了解详情</a>
-	
-						</div>
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="hero_wrapper" style="height:100%;background: url(/res/images/home/FP-Banner.png) top center no-repeat; background-size: cover;">
+					<div class="FP banner-tab-item">
+						<p class="title">DataEnjoy 零售业态扶持计划</p>
+						<p class="text">作为零售行业IT解决方案专家，打造健康、共享、互利的生态，为改善、发展零
+							售业环境做贡献，一直是Dataenjoy的行业愿景和企业责任。
+						</p>
+						<a href="<%=request.getContextPath()%>/pages/FP.jsp" class="btn-button">了解详情</a>
+
 					</div>
 				</div>
 			</div>
-			
-			<!-- 如果需要分页器 -->
-			<div class="swiper-pagination"></div>
-			
-			<!-- 如果需要导航按钮 -->
-			<div class="swiper-button-prev"></div>
-			<div class="swiper-button-next"></div>
-			
-			<!-- 如果需要滚动条 -->
-			<div class="swiper-scrollbar"></div>
-		</section>
-		<script>
-			var swiper = new Swiper('.swiper-container', {
-				pagination: {
-					el: '.swiper-pagination',
-					clickable: true,
-					renderBullet: function (index, className) {
-						return '<span class="' + className + '">' + (index + 1) + '</span>';
-					},
+		</div>
+		
+		<!-- 如果需要分页器 -->
+		<div class="swiper-pagination"></div>
+		
+		<!-- 如果需要导航按钮 -->
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
+		
+		<!-- 如果需要滚动条 -->
+		<div class="swiper-scrollbar"></div>
+	</section>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+				renderBullet: function (index, className) {
+					return '<span class="' + className + '">' + (index + 1) + '</span>';
 				},
-				// 如果需要前进后退按钮
-				navigation: {
-					nextEl: '.swiper-button-next',
-					prevEl: '.swiper-button-prev',
-				},
-				 autoplay:true,
-				loop : true,
-				
-			});
-	
-		</script>
-		<!--Hero_Section-->
+			},
+			// 如果需要前进后退按钮
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+			 autoplay:true,
+			loop : true,
+			
+		});
+
+	</script>
+	<!--Hero_Section-->
 
 	<section id="aboutUs">
 		<!--Aboutus-->
@@ -351,6 +352,7 @@
 								<li><a href="<%=request.getContextPath()%>/pages-en/mc.jsp">Dataenjoy MC</a></li>
 								<li><a href="<%=request.getContextPath()%>/pages-en/ac.jsp">Dataenjoy AC</a></li>
 								<li><a href="<%=request.getContextPath()%>/pages-en/bc.jsp">Dataenjoy BC</a></li>
+								<li><a href="<%=request.getContextPath()%>/pages-en/sc.jsp">Dataenjoy SC</a></li>
 							</ul>
 							<br /> <span class="title">Product consultation</span>
 							<ul>

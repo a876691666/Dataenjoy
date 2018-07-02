@@ -49,6 +49,7 @@
 								<li><a href="<%=request.getContextPath()%>/pages/mc.jsp">Dataenjoy MC</a></li>
 								<li><a href="<%=request.getContextPath()%>/pages/ac.jsp">Dataenjoy AC</a></li>
 								<li><a href="<%=request.getContextPath()%>/pages/bc.jsp">Dataenjoy BC</a></li>
+								<li><a href="<%=request.getContextPath()%>/pages/sc.jsp">Dataenjoy SC</a></li>
 							</ul>
 						</li>
 						<li><a href="<%=request.getContextPath()%>/pages/solution.jsp" class="scroll-link">解决方案</a></li>
@@ -326,6 +327,8 @@
 										AC</a></li>
 								<li><a href="<%=request.getContextPath()%>/pages/bc.jsp">Dataenjoy
 										BC</a></li>
+								<li><a href="<%=request.getContextPath()%>/pages/sc.jsp">Dataenjoy
+										SC</a></li>
 							</ul>
 							<br /> <span class="title">产品咨询</span>
 							<ul>

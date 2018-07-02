@@ -59,6 +59,7 @@
 								<li><a href="<%=request.getContextPath()%>/pages-en/mc.jsp">Dataenjoy MC</a></li>
 								<li><a href="<%=request.getContextPath()%>/pages-en/ac.jsp">Dataenjoy AC</a></li>
 								<li><a href="<%=request.getContextPath()%>/pages-en/bc.jsp">Dataenjoy BC</a></li>
+								<li><a href="<%=request.getContextPath()%>/pages-en/sc.jsp">Dataenjoy SC</a></li>
 							</ul>
 						</li>
 						<li class="active"><a href="#" class="scroll-link">Solution</a></li>
@@ -387,6 +388,7 @@
 								<li><a href="<%=request.getContextPath()%>/pages-en/mc.jsp">Dataenjoy MC</a></li>
 								<li><a href="<%=request.getContextPath()%>/pages-en/ac.jsp">Dataenjoy AC</a></li>
 								<li><a href="<%=request.getContextPath()%>/pages-en/bc.jsp">Dataenjoy BC</a></li>
+								<li><a href="<%=request.getContextPath()%>/pages-en/sc.jsp">Dataenjoy SC</a></li>
 							</ul>
 							<br /> <span class="title">Product consultation</span>
 							<ul>

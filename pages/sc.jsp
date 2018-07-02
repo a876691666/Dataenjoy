@@ -57,7 +57,7 @@
 					    <li><a href="<%=request.getContextPath()%>/newsController/list.do" class="scroll-link">公司动态</a></li>
 					</ul>
 					<div class="btn-box">
-						<a href="<%=request.getContextPath()%>/pages-en/ac.jsp" class="login-btn" style="border:none;">English</a>
+						<a href="<%=request.getContextPath()%>/pages-en/sc.jsp" class="login-btn" style="border:none;">English</a>
 						<jsp:include page="inc/loginBox.jsp" flush="true" />
 					</div>
 				</div>
@@ -73,14 +73,13 @@
 	        <div class="row">
 	          <div class="col-lg-5 col-sm-7">
 	            <div class="top_left_cont zoomIn wow animated"> 
-	              <strong class="font1">Dataenjoy AC</strong><br/>
-				  <strong class="font1">敏捷型数据分析产品，精确细化，不止于快</strong>
-	              <p style="padding-top: 40px;">Dataenjoy AC是一款实现全渠道接入数据的分析型产品，具备敏捷定制、开箱即用的特点，能够应用于电商、零售、App、智能终端等众多应用场景，通过用户行为细节的实时分析，帮助运营者做出准确的
-判断。</p>
+	              <strong class="font1">Dataenjoy SC</strong><br/>
+				  <strong class="font1">拟人化采集技术，采集清洗二合一， 数据完整不丢失</strong>
+	              <p style="padding-top: 40px;">采集云是一款集成通用爬虫能力的一站式开发平台工具，采用模拟真实用户访问网页的方式，精准快速采集互联网的网页端、移动端以及系统内部数据，帮助企业整合商业信息，洞察市场前沿动态。</p>
 	              <a href="javascript:buttonShow();" class="read_more2" data-toggle="modal" data-target="#regModal">立即试用</a> </div>
 	          </div>
 	          <div class="col-lg-7 col-sm-5">
-				<img src="../res/images/AC/banner.png" class="zoomIn wow animated" alt="" />
+				<img src="../res/images/SC/banner.png" class="zoomIn wow animated" alt="" />
 			  </div>
 	        </div>
 	      </div>
@@ -95,70 +94,28 @@
 			<h6>Product Function</h6>
 			<div class="service_wrapper">
 				<div class="row">
-					<div class="col-lg-3">
+					<div class="col-lg-4">
 						<div class="service_block">
 							<div class=" delay-03s animated wow  zoomIn">
-								<img alt="" src="../res/images/AC/Product-icon01.png" width="130"/>
+								<img alt="" src="../res/images/SC/icon1.png" width="130"/>
 							</div>
 							<h3 class="animated fadeInUp wow">全网数据采集</h3>
 						</div>
 					</div>
-					<div class="col-lg-3 borderLeft">
+					<div class="col-lg-4 borderLeft">
 						<div class="service_block">
 							<div class=" delay-03s animated wow  zoomIn">
-								<img alt="" src="../res/images/AC/Product-icon02.png" width="130"/>
+								<img alt="" src="../res/images/SC/icon2.png" width="130"/>
 							</div>
-							<h3 class="animated fadeInUp wow">渠道流量监控</h3>
+							<h3 class="animated fadeInUp wow">APP端数据采集</h3>
 						</div>
 					</div>
-					<div class="col-lg-3 borderLeft">
+					<div class="col-lg-4 borderLeft">
 						<div class="service_block">
 							<div class=" delay-03s animated wow  zoomIn">
-								<img alt="" src="../res/images/AC/Product-icon03.png" width="130"/>
+								<img alt="" src="../res/images/SC/icon3.png" width="130"/>
 							</div>
-							<h3 class="animated fadeInUp wow">行为漏斗分析</h3>
-						</div>
-					</div>
-					<div class="col-lg-3 borderLeft">
-						<div class="service_block">
-							<div class=" delay-03s animated wow  zoomIn">
-								<img alt="" src="../res/images/AC/Product-icon04.png" width="130"/>
-							</div>
-							<h3 class="animated fadeInUp wow">用户留存分析</h3>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-3">
-						<div class="service_block">
-							<div class=" delay-03s animated wow  zoomIn">
-								<img alt="" src="../res/images/AC/Product-icon05.png" width="130"/>
-							</div>
-							<h3 class="animated fadeInUp wow">全页面热力图</h3>
-						</div>
-					</div>
-					<div class="col-lg-3 borderLeft">
-						<div class="service_block">
-							<div class=" delay-03s animated wow  zoomIn">
-								<img alt="" src="../res/images/AC/Product-icon06.png" width="130"/>
-							</div>
-							<h3 class="animated fadeInUp wow">活动传播分析</h3>
-						</div>
-					</div>
-					<div class="col-lg-3 borderLeft">
-						<div class="service_block">
-							<div class=" delay-03s animated wow  zoomIn">
-								<img alt="" src="../res/images/AC/Product-icon07.png" width="130"/>
-							</div>
-							<h3 class="animated fadeInUp wow">智能报表展示</h3>
-						</div>
-					</div>
-					<div class="col-lg-3 borderLeft">
-						<div class="service_block">
-							<div class=" delay-03s animated wow  zoomIn">
-								<img alt="" src="../res/images/AC/Product-icon08.png" width="130"/>
-							</div>
-							<h3 class="animated fadeInUp wow">数据趋势报告</h3>
+							<h3 class="animated fadeInUp wow">商情监测</h3>
 						</div>
 					</div>
 				</div>
@@ -167,23 +124,20 @@
 	</section>
 	
 	<section id="hero_section" class="top_cont_outer" style="padding-top: 100px;padding-bottom: 240px;">
-	    <h2 style="color: #666666;">产品特性</h2>
-		<h6>Product Function</h6>
+	    <h2 style="color: #666666;">技术特点</h2>
+		<h6>Technical Features</h6>
 	  <div class="hero_wrapper" style="padding-top: 40px;">
 	    <div class="container container_inner">
 	      <div class="hero_section">
 	        <div class="row">
 	          <div class="col-lg-7 col-sm-5" style="position: relative;">
-				<img src="../res/images/AC/Animation1/1.png" class="zoomIn wow animated" alt="" style="position:absolute;top:0;left:0;width:350px;"/>
-				<img src="../res/images/AC/Animation1/2.png" class="zoomIn wow animated" alt="" style="position:absolute;top:110px;left:80px;width: 120px;"/>
-				<img src="../res/images/AC/Animation1/4.png" class="zoomIn wow animated" alt="" style="position:absolute;top:60px;left:210px;width: 150px;"/>
-				<img src="../res/images/AC/Animation1/5.png" class="zoomIn wow animated" alt="" style="position:absolute;top:220px;left:90px;width: 160px;"/>
-				<img src="../res/images/AC/Animation1/3.png" class="zoomIn wow animated" alt="" style="position:absolute;top:180px;left:270px;width: 100px;"/>
+				<img src="../res/images/SC/shengshi.png" class="zoomIn wow animated" alt="" style="position:absolute;top:0;left:0;width:450px;"/>
 			  </div>
 			  <div class="col-lg-5 col-sm-7">
-	            <div class="top_left_cont zoomIn wow animated"> 
-				  <strong class="font1">简单易用轻松上手，快速提高运营效率</strong>
-	              <p style="padding-top: 20px;">运营管理人员轻松上手，人性化界面清晰易懂，流量监控、行为漏斗、用户留存、热力图、传播分析等强大功能让感性的东西变得从此量化，帮助决策者一目了然，迅速把握商机提升回报率。</p>
+	            <div class="top_left_cont zoomIn wow animated">
+				  <strong class="font1">【省时】</strong><br/>				
+				  <strong class="font1">Paas平台开发工具</strong>
+	              <p style="padding-top: 20px;">一站式平台整合所有爬虫模块</p>
 	              <a href="javascript:buttonShow();" class="read_more2" data-toggle="modal" data-target="#regModal">了解更多</a> </div>
 	          </div>
 	        </div>
@@ -197,18 +151,15 @@
 	    <div class="container container_inner" style="padding-top: 200px;padding-bottom: 320px;">
 	      <div class="hero_section">
 	        <div class="row">
-			  <div class="col-lg-7 col-sm-7">
+			  <div class="col-lg-5 col-sm-5">
 	            <div class="top_left_cont zoomIn wow animated"> 
-				  <strong class="font1">私有化与SaaS化灵活部署</strong>
-	              <p style="padding-top: 20px;">SaaS化部署实施简单开箱即用，节省您的时间<br>成本 私有化部署数据安全可靠，定制您的专属分析系统</p>
+				  <strong class="font1">【省钱】</strong><br/>
+				  <strong class="font1">分布式</strong>
+	              <p style="padding-top: 20px;">分布式任务调度机制，高效<br>并发采集</p>
 	              <a href="javascript:buttonShow();" class="read_more2" data-toggle="modal" data-target="#regModal">了解更多</a> </div>
 	          </div>
-	          <div class="col-lg-5 col-sm-5">
-				<img src="../res/images/AC/Animation2/1.png" class="zoomIn wow animated" alt="" style="position:absolute;top:0;left:100;width: 350px;"/>
-				<img src="../res/images/AC/Animation2/2.png" class="zoomIn wow animated" alt="" style="position:absolute;top:50px;left:0px;width: 260px;"/>
-				<img src="../res/images/AC/Animation2/3.png" class="zoomIn wow animated" alt="" style="position:absolute;top:110px;left:20px;width: 200px;"/>
-				<img src="../res/images/AC/Animation2/4.png" class="zoomIn wow animated" alt="" style="position:absolute;top:180px;left:40px;width: 100px;"/>
-				<img src="../res/images/AC/Animation2/5.png" class="zoomIn wow animated" alt="" style="position:absolute;top:210px;left:100px;width: 30px;"/>
+	          <div class="col-lg-7 col-sm-7">
+				<img src="../res/images/SC/shengqian.png" class="zoomIn wow animated" alt="" style="position:absolute;top:0;left:0;width: 450px;"/>
 			  </div>
 	        </div>
 	      </div>
@@ -221,19 +172,14 @@
 	    <div class="container container_inner" style="padding-top: 200px;padding-bottom: 280px;">
 	      <div class="hero_section">
 	        <div class="row">
-	          <div class="col-lg-7 col-sm-5">
-				<div class="col-lg-7 col-sm-5">
-				<img src="../res/images/AC/Animation3/1.png" class="zoomIn wow animated" alt="" style="position:absolute;top:0;left:100;width: 350px;"/>
-				<img src="../res/images/AC/Animation3/2.png" class="zoomIn wow animated" alt="" style="position:absolute;top:50px;left:70px;width: 260px;"/>
-				<img src="../res/images/AC/Animation3/3.png" class="zoomIn wow animated" alt="" style="position:absolute;top:170px;left:70px;width: 270px;"/>
-				<img src="../res/images/AC/Animation3/4.png" class="zoomIn wow animated" alt="" style="position:absolute;top:240px;left:120px;width: 200px;"/>
-				<img src="../res/images/AC/Animation3/5.png" class="zoomIn wow animated" alt="" style="position:absolute;top:260px;left:30px;width: 35px;"/>
+	          <div class="col-lg-7 col-sm-7">
+				<img src="../res/images/SC/shengli.png" class="zoomIn wow animated" alt="" style="position:absolute;top:0;left:0;width: 450px;"/>
 			  </div>
-			  </div>
-			  <div class="col-lg-5 col-sm-7">
+			  <div class="col-lg-5 col-sm-5">
 	            <div class="top_left_cont zoomIn wow animated"> 
-				  <strong class="font1">BI报表多维度定制，实现个性化分析</strong>
-	              <p style="padding-top: 20px;">商业智能报表展示，可以实现多层次多维度的报表分析与展示，以及多维度的权限控制，帮助企业方便管理的同时深入挖掘商业机遇，运筹帷幄兼于内外。</p>
+				  <strong class="font1">【省力】</strong><br/>
+				  <strong class="font1">数据清洗</strong>
+	              <p style="padding-top: 20px;">将采集、数据ETL清洗合二为一</p>
 	              <a href="javascript:buttonShow();" class="read_more2" data-toggle="modal" data-target="#regModal">了解更多</a> </div>
 	          </div>
 	        </div>
@@ -248,18 +194,15 @@
 	    <div class="container container_inner" style="padding-top: 220px;padding-bottom: 350px">
 	      <div class="hero_section">
 	        <div class="row">
-			  <div class="col-lg-7 col-sm-7">
+			  <div class="col-lg-5 col-sm-5">
 	            <div class="top_left_cont zoomIn wow animated"> 
-				  <strong class="font1">私有化与SaaS化灵活部署</strong>
-	              <p style="padding-top: 20px;">SaaS化部署实施简单开箱即用，节省您的时间成本<br> 私有化部署数据安全可靠，定制您的专属分析系统</p>
+				  <strong class="font1">【跨端】</strong><br/>
+				  <strong class="font1">APP端采集</strong>
+	              <p style="padding-top: 20px;">基于安卓上独有的自动操作<br>APP技术</p>
 	              <a href="#service" class="read_more2" data-toggle="modal" data-target="#regModal">了解更多</a> </div>
 	          </div>
-	          <div class="col-lg-5 col-sm-5">
-				<img src="../res/images/AC/Animation4/1.png" class="zoomIn wow animated" alt="" style="position:absolute;top:0px;left:80px;width: 350px;"/>
-				<img src="../res/images/AC/Animation4/3.png" class="zoomIn wow animated" alt="" style="position:absolute;top:50px;left:60px;width: 130px;"/>
-				<img src="../res/images/AC/Animation4/2.png" class="zoomIn wow animated" alt="" style="position:absolute;top:50px;left:210px;width: 150px;"/>
-				<img src="../res/images/AC/Animation4/4.png" class="zoomIn wow animated" alt="" style="position:absolute;top:160px;left:40px;width: 130px;"/>
-				<img src="../res/images/AC/Animation4/5.png" class="zoomIn wow animated" alt="" style="position:absolute;top:220px;left:150px;width: 200px;"/>
+	          <div class="col-lg-7 col-sm-7">
+				<img src="../res/images/SC/kuaduan.png" class="zoomIn wow animated" alt="" style="position:absolute;top:0px;left:0px;width: 450px;"/>
 			  </div>
 	        </div>
 	      </div>
@@ -267,66 +210,128 @@
 	  </div>
 	</section>
 	
+	<section id="hero_section" class="top_cont_outer">
+	  <div class="hero_wrapper">
+	    <div class="container container_inner" style="padding-top: 200px;padding-bottom: 280px;">
+	      <div class="hero_section">
+	        <div class="row">
+	          <div class="col-lg-7 col-sm-7">
+				<img src="../res/images/SC/anquan.png" class="zoomIn wow animated" alt="" style="position:absolute;top:0;left:0;width: 450px;"/>
+			  </div>
+			  <div class="col-lg-5 col-sm-5">
+	            <div class="top_left_cont zoomIn wow animated"> 
+				  <strong class="font1">【安全】</strong><br/>
+				  <strong class="font1">私有化部署</strong>
+	              <p style="padding-top: 20px;">支持本平台上全部模块的<br>私有化部署</p>
+	              <a href="javascript:buttonShow();" class="read_more2" data-toggle="modal" data-target="#regModal">了解更多</a> </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+	
 	<section id="pricing" class="pricing-container page_section" style="background: #fff;">
-		<div class="container pricing_inner" style="padding-bottom: 100px;padding-top: 80px;">
-			<h2 style="color: #666;">我们的解决方案</h2>
-			<h6 style="color: #666;">Our solution</h6>
-			<div class="row" style="padding-top: 50px;">
-				<div class="col-md-4 col-sm-4 col-xs-12 pricing-box">
-					<div class="pricing" style="border: 1px solid #d2d2d2;">
-						<div class="icon">
-							<img
-								src="<%=request.getContextPath()%>/res/images/home/icon07.png" />
-						</div>
-						<div>
-							<p style="color: #333;">新零售电商解决方案</p>
-							<p style="color: #333;">New retail business</p>
-						</div>
-						<div class="link">
-							<a href="#" data-toggle="modal" data-target="#regModal">获取方案</a>
+		<div class="container pricing_inner" style="padding-bottom: 100px;padding-top: 80px;width: 900px;">
+			<h2 style="color: #666;">为什么选择我们</h2>
+			<h6 style="color: #666;">Why choose us</h6>
+			<div class="service_wrapper">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="service_block">
+							<div class=" delay-03s animated wow  zoomIn">
+								<img alt="" src="../res/images/SC/dingzhi.png" width="130"/>
+							</div>
+							<h3 class="animated fadeInUp wow">专业企业定制服务</h3>
 						</div>
 					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-4 col-xs-12 pricing-box">
-					<div class="pricing" style="border: 1px solid #d2d2d2;">
-						<div class="icon">
-							<img
-								src="<%=request.getContextPath()%>/res/images/home/icon08.png" />
-						</div>
-						<div>
-							<p style="color: #333;">媒体公共安全解决方案</p>
-							<p style="color: #333;">Media public security</p>
-						</div>
-						<div class="link">
-							<a href="#" data-toggle="modal" data-target="#regModal">获取方案</a>
+					<div class="col-lg-3 borderLeft">
+						<div class="service_block">
+							<div class=" delay-03s animated wow  zoomIn">
+								<img alt="" src="../res/images/SC/jingyan.png" width="130"/>
+							</div>
+							<h3 class="animated fadeInUp wow">5年+项目团队经验</h3>
 						</div>
 					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-4 col-xs-12 pricing-box">
-					<div class="pricing" style="border: 1px solid #d2d2d2;">
-						<div class="icon">
-							<img
-								src="<%=request.getContextPath()%>/res/images/home/icon09.png" />
+					<div class="col-lg-3 borderLeft">
+						<div class="service_block">
+							<div class=" delay-03s animated wow  zoomIn">
+								<img alt="" src="../res/images/SC/zhenghe.png" width="130"/>
+							</div>
+							<h3 class="animated fadeInUp wow">优化高效整合资源</h3>
 						</div>
-						<div>
-							<p style="color: #333;">互联网金融解决方案</p>
-							<p style="color: #333;">Online finance</p>
-						</div>
-						<div class="link">
-							<a href="#" data-toggle="modal" data-target="#regModal">获取方案</a>
+					</div>
+					<div class="col-lg-3 borderLeft">
+						<div class="service_block">
+							<div class=" delay-03s animated wow  zoomIn">
+								<img alt="" src="../res/images/SC/shouhou.png" width="130"/>
+							</div>
+							<h3 class="animated fadeInUp wow">即时售后响应机制</h3>
 						</div>
 					</div>
 				</div>
 			</div>
-		
-			<div class="row" style="text-align: center;padding-top: 60px;">
-			   <a href="#service" class="read_more3" data-toggle="modal" data-target="#regModal">更多咨询</a>
-			</div>
-			<!--- END ROW -->
 		</div>
 		<!--- END CONTAINER -->
+	</section>
+	
+	<section id="hero_section" class="top_cont_outer" style="padding-top: 100px;padding-bottom: 240px;">
+	    <h2 style="color: #666666;">服务案例</h2>
+		<h6 style="font-size: 23px;">Service Cases</h6>
+	  <div class="hero_wrapper" style="padding-top: 40px;">
+	    <div class="container container_inner">
+	      <div class="hero_section">
+	        <div class="row">
+	          <div class="col-lg-7 col-sm-5" style="position: relative;">
+				<img src="../res/images/SC/longhu.png" class="zoomIn wow animated" alt="" style="position:absolute;top:0;left:0;width:450px;"/>
+			  </div>
+			  <div class="col-lg-5 col-sm-7">
+	            <div class="top_left_cont zoomIn wow animated" style="padding:0px"> 
+				  <p>冠寓是龙湖集团面向更年轻人群租住生活形态及消费升级需求推出的集中式长租公寓品牌，为了将三大产品线更细化的注入市场，瑞雪采集云满足了龙湖的海量互联网数据需求，将分析样本量做至最大化</p>
+				  <strong class="font1">客户收益</strong>
+	              <p style="padding-top: 20px;margin: 0 0 10px 0;">1. 建立专业的数据采集体系</p>
+				  <p style="padding-top: 5px;margin: 0 0 10px 0;">2. 每15天/次，上百万数据支持</p>
+				  <p style="padding-top: 5px;margin: 0 0 10px 0;">3. 极大节省IT部的人力和硬件资源</p>
+				</div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+	
+	<section id="clients" style="padding-top: 100px;padding-bottom: 120px;">
+		<!--page_section-->
+		<div class="client_logos">
+			<!--client_logos-->
+			<div class="container container_inner">
+				<ul class="fadeInRight animated wow">
+					<li><span>
+					<img src="<%=request.getContextPath()%>/res/images/SC/ruijinlin.png"
+							alt=""></span></li>
+					<li><span><img
+							src="<%=request.getContextPath()%>/res/images/SC/rongshu.png"
+							alt=""></span></li>
+					<li><span><img
+							src="<%=request.getContextPath()%>/res/images/SC/jindouyun.png"
+							alt=""></span></li>
+					<li><span><img
+							src="<%=request.getContextPath()%>/res/images/SC/BlackMagic.png"
+							alt=""></span></li>
+					<li><span><img
+							src="<%=request.getContextPath()%>/res/images/SC/kezhan.png"
+							alt=""></span></li>
+					<li><span><img
+							src="<%=request.getContextPath()%>/res/images/SC/huitangwang.png"
+							alt=""></span></li>
+					<li><span><img
+							src="<%=request.getContextPath()%>/res/images/SC/TogeData.png"
+							alt=""></span></li>
+					<li><span><img
+							src="<%=request.getContextPath()%>/res/images/SC/huichiixia.png"
+							alt=""></span></li>
+				</ul>
+			</div>
+		</div>
 	</section>
 
 	<!--Footer-->
