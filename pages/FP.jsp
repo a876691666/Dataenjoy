@@ -62,7 +62,6 @@
 							class="scroll-link">公司动态</a></li>
 					</ul>
 					<div class="btn-box">
-						<a href="<%=request.getContextPath()%>/pages-en/FP.jsp" class="login-btn" style="border:none;">English</a>
 						<jsp:include page="inc/loginBox.jsp" flush="true" />
 					</div>
 				</div>
